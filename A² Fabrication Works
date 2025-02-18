@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A² Fabrication Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background-color: #f3f6fa; color: #222; }
+        header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; text-align: center; padding: 5rem 2rem; }
+        header h1 { font-size: 3.2rem; margin: 0; font-weight: 700; }
+        header p { font-size: 1.6rem; font-weight: 300; }
+        .btn { display: inline-block; background: #ff6b35; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-size: 1.2rem; margin-top: 15px; font-weight: 600; transition: background 0.3s; }
+        .btn:hover { background: #e65c2f; }
+        nav { background: #142850; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-size: 1.2rem; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #ff6b35; }
+        .container { padding: 50px; max-width: 1200px; margin: auto; text-align: center; }
+        .services { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .service-card { background: white; padding: 20px; text-align: center; width: 300px; border-radius: 12px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s, box-shadow 0.3s; font-weight: 400; }
+        .service-card:hover { transform: translateY(-10px); box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25); }
+        .gallery { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+        .gallery img { width: 100%; max-width: 350px; margin: 10px; border-radius: 12px; box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3); cursor: pointer; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+        footer { background: #142850; color: white; text-align: center; padding: 2rem; margin-top: 20px; font-size: 1.1rem; font-weight: 300; }
+        h2 { text-align: center; font-size: 2.2rem; color: #1e3c72; font-weight: 700; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A² Fabrication Works</h1>
+        <p>Premium Aluminum & Glass Fabrication Solutions</p>
+        <a href="#contact" class="btn">Get a Quote</a>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We specialize in high-quality aluminum and glass fabrications, offering customized solutions for homes and businesses in Bengaluru.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-card"><h3>Aluminum Doors & Windows</h3></div>
+                <div class="service-card"><h3>Glass Partitions</h3></div>
+                <div class="service-card"><h3>Shower Cubicles</h3></div>
+                <div class="service-card"><h3>Office Cabins</h3></div>
+                <div class="service-card"><h3>ACP Panelling</h3></div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Project 1">
+                <img src="image2.jpg" alt="Project 2">
+            </div>
+        </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <p>Contact us for a custom quote.</p>
+        </section>
+        <section id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <blockquote>"Excellent service! Highly recommend A² Fabrication Works." – Rahul S.</blockquote>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: asquare.fabricationworks@gmail.com</p>
+            <p>Phone: +91 8147537416</p>
+            <p>Location: 234, Narayan Pillai St, Off Commercial Street, Bharati Nagar, Bengaluru, Karnataka 560001, India</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 A² Fabrication Works. All rights reserved.</p>
+    </footer>
+</body>
+</html>
